@@ -1,0 +1,51 @@
+sale_id,date,product_name,category,quantity,unit_price,cost_price,customer_name,region
+1,2024-01-05,Laptop,Electronics,2,55000,40000,Rahul Sharma,West
+2,2024-01-08,Mouse,Electronics,5,500,300,Priya Patel,North
+3,2024-01-12,Office Chair,Furniture,3,8000,5000,Amit Verma,South
+4,2024-01-15,Notebook,Stationery,20,50,30,Sneha Joshi,East
+5,2024-01-18,Keyboard,Electronics,4,1200,800,Rohit Singh,West
+6,2024-01-22,Desk Lamp,Electronics,6,900,500,Anjali Mehta,North
+7,2024-01-25,Pen Drive,Electronics,10,600,350,Vikas Gupta,South
+8,2024-02-02,Monitor,Electronics,3,12000,8000,Neha Kulkarni,East
+9,2024-02-05,Laptop,Electronics,1,55000,40000,Suresh Nair,West
+10,2024-02-10,Office Chair,Furniture,2,8000,5000,Kavita Reddy,North
+11,2024-02-14,Notebook,Stationery,50,50,30,Manoj Tiwari,South
+12,2024-02-18,Mouse,Electronics,8,500,300,Pooja Desai,East
+13,2024-02-22,Keyboard,Electronics,6,1200,800,Arjun Bhatt,West
+14,2024-02-26,Pen Drive,Electronics,15,600,350,Divya Rao,North
+15,2024-03-03,Monitor,Electronics,4,12000,8000,Kiran Patil,South
+16,2024-03-07,Laptop,Electronics,3,55000,40000,Sanjay Jain,East
+17,2024-03-11,Desk Lamp,Electronics,8,900,500,Meera Nambiar,West
+18,2024-03-15,Office Chair,Furniture,5,8000,5000,Ravi Shankar,North
+19,2024-03-19,Notebook,Stationery,30,50,30,Anita Pillai,South
+20,2024-03-23,Mouse,Electronics,12,500,300,Deepak Mishra,East
+21,2024-04-01,Keyboard,Electronics,7,1200,800,Sunita Yadav,West
+22,2024-04-05,Laptop,Electronics,2,55000,40000,Ramesh Iyer,North
+23,2024-04-09,Pen Drive,Electronics,20,600,350,Geeta Chopra,South
+24,2024-04-13,Monitor,Electronics,5,12000,8000,Harish Kumar,East
+25,2024-04-17,Desk Lamp,Electronics,10,900,500,Lalita Dubey,West
+26,2024-04-21,Office Chair,Furniture,4,8000,5000,Mohan Das,North
+27,2024-04-25,Notebook,Stationery,40,50,30,Nisha Agarwal,South
+28,2024-05-03,Mouse,Electronics,15,500,300,Om Prakash,East
+29,2024-05-07,Laptop,Electronics,4,55000,40000,Parvati Menon,West
+30,2024-05-11,Keyboard,Electronics,9,1200,800,Quresh Ali,North
+31,2024-05-15,Pen Drive,Electronics,25,600,350,Radha Krishnan,South
+32,2024-05-19,Monitor,Electronics,6,12000,8000,Satish Pawar,East
+33,2024-05-23,Desk Lamp,Electronics,12,900,500,Tara Bose,West
+34,2024-05-27,Office Chair,Furniture,6,8000,5000,Uday Khanna,North
+35,2024-06-02,Notebook,Stationery,60,50,30,Vasudha Pillai,South
+36,2024-06-06,Mouse,Electronics,18,500,300,Wasim Khan,East
+37,2024-06-10,Laptop,Electronics,5,55000,40000,Xavier Pereira,West
+38,2024-06-14,Keyboard,Electronics,11,1200,800,Yashoda Rao,North
+39,2024-06-18,Pen Drive,Electronics,30,600,350,Zahir Hussain,South
+40,2024-06-22,Monitor,Electronics,7,12000,8000,Aakash Tomar,East
+41,2024-07-01,Desk Lamp,Electronics,14,900,500,Bhavna Soni,West
+42,2024-07-05,Office Chair,Furniture,7,8000,5000,Chetan Malhotra,North
+43,2024-07-09,Notebook,Stationery,70,50,30,Disha Kapoor,South
+44,2024-07-13,Mouse,Electronics,20,500,300,Esha Trivedi,East
+45,2024-07-17,Laptop,Electronics,6,55000,40000,Farhan Siddiqui,West
+46,2024-07-21,Keyboard,Electronics,13,1200,800,Gita Saxena,North
+47,2024-07-25,Pen Drive,Electronics,35,600,350,Hemant Lal,South
+48,2024-08-02,Monitor,Electronics,8,12000,8000,Indira Nair,East
+49,2024-08-06,Laptop,Electronics,7,55000,40000,Jagdish Rao,West
+50,2024-08-10,Desk Lamp,Electronics,16,900,500,Kamla Verma,North

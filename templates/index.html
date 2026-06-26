@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Analytics | Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 50%, #16213e 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        .login-card {
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(124,58,237,0.3);
+            border-radius: 20px;
+            padding: 50px 40px;
+            width: 400px;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+        }
+        .logo { text-align: center; margin-bottom: 30px; }
+        .logo i { font-size: 3rem; color: #7c3aed; }
+        .logo h2 { color: white; font-size: 1.5rem; margin-top: 10px; font-weight: 700; }
+        .logo p { color: #888; font-size: 0.85rem; }
+        .form-control {
+            background: rgba(255,255,255,0.08);
+            border: 1px solid rgba(124,58,237,0.3);
+            color: white;
+            border-radius: 10px;
+            padding: 12px 15px;
+        }
+        .form-control:focus {
+            background: rgba(255,255,255,0.1);
+            border-color: #7c3aed;
+            color: white;
+            box-shadow: 0 0 0 3px rgba(124,58,237,0.2);
+        }
+        .form-label { color: #aaa; font-size: 0.85rem; margin-bottom: 6px; }
+        .btn-login {
+            background: linear-gradient(135deg, #7c3aed, #5b21b6);
+            border: none;
+            border-radius: 10px;
+            color: white;
+            padding: 13px;
+            width: 100%;
+            font-size: 1rem;
+            font-weight: 600;
+            margin-top: 10px;
+            transition: all 0.3s;
+        }
+        .btn-login:hover { transform: translateY(-2px); box-shadow: 0 10px 25px rgba(124,58,237,0.4); }
+        .alert-error {
+            background: rgba(239,68,68,0.15);
+            border: 1px solid rgba(239,68,68,0.4);
+            color: #f87171;
+            border-radius: 10px;
+            padding: 12px;
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+            text-align: center;
+        }
+        .hint { text-align: center; margin-top: 20px; color: #555; font-size: 0.8rem; }
+        .hint span { color: #7c3aed; }
+    </style>
+</head>
+<body>
+    <div class="login-card">
+        <div class="logo">
+            <i class="fas fa-chart-line"></i>
+            <h2>Sales Analytics</h2>
+            <p>Dashboard & Reporting System</p>
+        </div>
+        {% if error %}
+        <div class="alert-error"><i class="fas fa-exclamation-circle me-2"></i>{{ error }}</div>
+        {% endif %}
+        <form method="POST" action="/login">
+            <div class="mb-3">
+                <label class="form-label">Username</label>
+                <input type="text" name="username" class="form-control" placeholder="Enter username" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input type="password" name="password" class="form-control" placeholder="Enter password" required>
+            </div>
+            <button type="submit" class="btn-login">
+                <i class="fas fa-sign-in-alt me-2"></i>Login
+            </button>
+        </form>
+        <div class="hint">Default: <span>admin</span> / <span>admin123</span></div>
+    </div>
+</body>
+</html>

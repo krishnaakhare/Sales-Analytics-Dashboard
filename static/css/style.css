@@ -1,0 +1,8 @@
+/* Sales Analytics Dashboard - Custom Styles */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0f0f1a; }
+::-webkit-scrollbar-thumb { background: #7c3aed; border-radius: 3px; }
+
+::selection { background: rgba(124,58,237,0.3); color: white; }
